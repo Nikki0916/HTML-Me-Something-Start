@@ -1,1 +1,77 @@
 /* Write your CSS here! */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#mainHeading {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* background color and font for the entire document/ */ */
+body {
+    background-color: #7dd9ef;
+    font-family: Arial, sans-serif;
+}
+
+
+/* main content area */
+main {
+    padding: 20px;
+}
+
+/*article containing resume details */
+article {
+    background-color: #67def9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#testP.funParagraph {
+    color: green;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/*  headings */
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/*  lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
